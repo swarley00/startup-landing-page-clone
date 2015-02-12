@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: LightGray; /*remove after*/
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +46,47 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/*remove after*/
+div {
+	border: 1px solid Chocolate;
+}
+
+/*start my code*/
+#navigation {
+	background-color: #ffffff;
+}
+
+#navigation-container {
+	margin: 0 auto;
+	max-width: 58em;
+	height: 100%;
+}
+
+#logo {
+	height: 3em;
+	width: 3em;
+	margin: 1em 1em;
+}
+
+ul li {
+	display: inline;
+	padding: .8em;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: LightGray;
+}
+
+a:hover {
+	color: Black;
+}
+
+a:active {
+	font-weight: bold;
+	color: Black;
 }
