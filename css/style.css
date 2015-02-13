@@ -94,8 +94,17 @@ div {
 }
 
 .introduction {
-	background-image: url('images/first-background.jpg');
+	background-image: url("../images/first-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 100%;
+	background-position: center;
+	overflow: auto;
+	height: 735px;
+}
+
+.introduction > .content {
+	text-align: center;
+	color: #ffffff;
+	width: 60rem;
+	margin: 5rem auto;
 }
