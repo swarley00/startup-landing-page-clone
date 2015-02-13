@@ -64,28 +64,36 @@ div {
 	margin: 0 auto;
 }
 
+.content {
+	box-sizing: border-box;
+	padding: 0 0.938rem;
+}
+
 .logo {
 	height: 4.375rem;
-	margin-left: 14px;
 }
 
-ul li {
-	display: inline;
-	padding: .8em;
-	font-size: 1em;
+.top-navigation .links {
+	float: right;
 	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #838994;
+	letter-spacing: 0.03rem;
+	margin-top: 1.6rem;
+	-webkit-font-smoothing: antialiased;
 }
 
-a {
-	text-decoration: none;
-	color: LightGray;
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 600;
 }
 
-a:hover {
-	color: Black;
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.5rem;
 }
 
-a:active {
-	font-weight: bold;
+li:hover {
+	cursor: pointer;
 	color: Black;
 }
