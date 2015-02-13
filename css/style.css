@@ -64,10 +64,9 @@ div {
 	margin: 0 auto;
 }
 
-#logo {
-	height: 3em;
-	width: 3em;
-	margin: 1em 1em;
+.logo {
+	height: 4.375rem;
+	margin-left: 14px;
 }
 
 ul li {
