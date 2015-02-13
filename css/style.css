@@ -1,3 +1,11 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  	box-sizing: inherit;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -35,18 +43,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /*remove after*/
 div {
@@ -65,11 +61,10 @@ div {
 }
 
 .content {
-	box-sizing: border-box;
 	padding: 0 0.938rem;
 }
 
-.logo {
+.top-navigation .logo {
 	height: 4.375rem;
 }
 
@@ -79,13 +74,13 @@ div {
 	font-size: 1em;
 	color: #838994;
 	letter-spacing: 0.03rem;
-	margin-top: 1.6rem;
+	margin-top: 1.563rem;
 	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links > .active {
 	color: #4c5058;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .top-navigation .links li {
@@ -93,7 +88,14 @@ div {
 	margin-left: 1.5rem;
 }
 
-li:hover {
+.top-navigation .links li:hover {
 	cursor: pointer;
-	color: Black;
+	color: #333333;
+}
+
+.introduction {
+	background-image: url('images/first-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100%;
 }
