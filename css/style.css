@@ -54,14 +54,14 @@ div {
 }
 
 /*start my code*/
-#navigation {
+.top-navigation {
 	background-color: #ffffff;
 }
 
-#navigation-container {
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
 	margin: 0 auto;
-	max-width: 58em;
-	height: 100%;
 }
 
 #logo {
