@@ -52,16 +52,18 @@ div {
 /*start my code*/
 .top-navigation {
 	background-color: #ffffff;
+	/*position: fixed;*/
 }
 
 .top-navigation > .content {
-	width: 60rem;
 	height: 4.375rem;
-	margin: 0 auto;
 }
 
 .content {
+	width: 60rem;
 	padding: 0 0.938rem;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
 }
 
 .top-navigation .logo {
@@ -97,14 +99,43 @@ div {
 	background-image: url("../images/first-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center bottom;
 	overflow: auto;
-	height: 735px;
+	height: 45.938rem;
 }
 
-.introduction > .content {
-	text-align: center;
+.introduction h1,
+.introduction h3 {
 	color: #ffffff;
-	width: 60rem;
-	margin: 5rem auto;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	margin-bottom: 2rem;
+	font-size: 1.563rem;
+}
+
+.introduction .content .btn {
+	width: 155px;
+	border-radius: 4px;
+    color: #ffffff;
+    background-color: #f15a29;
+    font-size: 1rem;
+    display: block;
+    padding: 1rem 2em;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.introduction .content .btn:hover {
+	cursor: pointer;
+    background-color: #d9400e;
+    text-decoration: none;
 }
