@@ -141,32 +141,43 @@ div {
     text-decoration: none;
 }
 
-.icons {
+.cases {
 	text-align: center;
 	color: #000000;
 	-webkit-font-smoothing: antialiased;
 }
 
-.icons h1 {
+.cases .devices {
+	width: 32.3333333%;
+	display: inline-block;
+	margin-top: 2rem;
+	margin-bottom: 8rem;
+/*	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;*/
+}
+
+.cases h2 {
 	font-size: 2.750rem;
 	font-weight: 300;
 	margin-top: 8rem;
 	margin-bottom: 1rem;
 }
 
-.icons h3 {
+.cases h3 {
 	font-size: 1.563rem;
+	margin-top: 2rem;
 }
 
-.captions {
+/*.captions {
 	margin-bottom: 8rem;
 }
 
-.icons .content .captions li {
+.cases .content .captions li {
 	display: inline-block;
 	margin-left: 1.5rem;
 }
 
-.icons .content .captions img {
+.cases .content .captions img {
 	margin: 2rem;
-}
+}*/
