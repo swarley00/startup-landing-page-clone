@@ -102,6 +102,7 @@ div {
 	background-position: center bottom;
 	overflow: auto;
 	height: 45.938rem;
+	-webkit-font-smoothing: antialiased;
 }
 
 .introduction h1,
@@ -138,4 +139,34 @@ div {
 	cursor: pointer;
     background-color: #d9400e;
     text-decoration: none;
+}
+
+.icons {
+	text-align: center;
+	color: #000000;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icons h1 {
+	font-size: 2.750rem;
+	font-weight: 300;
+	margin-top: 8rem;
+	margin-bottom: 1rem;
+}
+
+.icons h3 {
+	font-size: 1.563rem;
+}
+
+.captions {
+	margin-bottom: 8rem;
+}
+
+.icons .content .captions li {
+	display: inline-block;
+	margin-left: 1.5rem;
+}
+
+.icons .content .captions img {
+	margin: 2rem;
 }
