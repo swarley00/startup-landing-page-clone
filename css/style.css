@@ -52,7 +52,9 @@ div {
 /*start my code*/
 .top-navigation {
 	background-color: #ffffff;
-	/*position: fixed;*/
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -152,9 +154,6 @@ div {
 	display: inline-block;
 	margin-top: 2rem;
 	margin-bottom: 8rem;
-/*	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;*/
 }
 
 .cases h2 {
