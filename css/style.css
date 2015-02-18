@@ -38,16 +38,16 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: LightGray; /*remove after*/
+	/*background-color: LightGray;*/ /*remove after*/
 }
 ol, ul {
 	list-style: none;
 }
 
 /*remove after*/
-div {
+/*div {
 	border: 1px solid Chocolate;
-}
+}*/
 
 /*start my code*/
 .top-navigation {
